@@ -15,8 +15,6 @@ BrandLab is a learning project that shows how **dynamic app branding** works on 
 
 Every feature calls the real platform API. A native call that fails is reported as a failure, never shown as a success.
 
-The original project brief is in [`writing-block.md`](../writing-block.md).
-
 ---
 
 ## 2. Tech stack

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-BrandLab: educational Expo app (Expo SDK 58, React Native 0.88, React 19.3, TypeScript strict) demonstrating real dynamic launcher icons, app labels, and home screen widgets. Android uses activity aliases + Jetpack Glance; iOS uses alternate icons + WidgetKit. Original spec is in `writing-block.md`. Requires a custom dev build — does not run in Expo Go. Not a git repo.
+BrandLab: educational Expo app (Expo SDK 58, React Native 0.88, React 19.3, TypeScript strict) demonstrating real dynamic launcher icons, app labels, and home screen widgets. Android uses activity aliases + Jetpack Glance; iOS uses alternate icons + WidgetKit. Requires a custom dev build — does not run in Expo Go.
 
 ## Commands
 
