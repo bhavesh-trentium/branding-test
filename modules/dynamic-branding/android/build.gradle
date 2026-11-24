@@ -1,0 +1,22 @@
+buildscript {
+  def kotlinVersion = rootProject.ext.has('kotlinVersion') ? rootProject.ext.kotlinVersion : '2.2.0'
+  repositories { google(); mavenCentral() }
+  dependencies {
+    classpath "org.jetbrains.kotlin.plugin.compose:org.jetbrains.kotlin.plugin.compose.gradle.plugin:${kotlinVersion}"
+  }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'expo-module-gradle-plugin'
+apply plugin: 'org.jetbrains.kotlin.plugin.compose'
+
+group = 'expo.modules.dynamicbranding'
+version = '1.0.0'
+
+android {
+  namespace 'expo.modules.dynamicbranding'
+}
+
+dependencies {
+  implementation 'androidx.glance:glance-appwidget:1.2.0'
+}

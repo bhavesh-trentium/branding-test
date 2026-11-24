@@ -1,0 +1,5 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": { "modules": ["BrandingNativeModule"] },
+  "android": { "modules": ["expo.modules.dynamicbranding.BrandingNativeModule"] }
+}
