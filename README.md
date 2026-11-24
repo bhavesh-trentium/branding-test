@@ -141,5 +141,3 @@ Details: [Platform limitations](docs/PROJECT_CONTEXT.md#12-platform-limitations)
 ## Documentation
 
 **[docs/PROJECT_CONTEXT.md](docs/PROJECT_CONTEXT.md)** is the single reference for architecture, data flow, the native code on each platform, widgets, Prebuild generation, values that must stay in sync, limitations, gotchas and testing.
-
-The original project brief is in [writing-block.md](writing-block.md).
